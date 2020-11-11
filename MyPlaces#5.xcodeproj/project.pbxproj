@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		5E64CE2D255BEAAD000B44DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E64CE2C255BEAAD000B44DE /* AppDelegate.swift */; };
 		5E64CE2F255BEAAD000B44DE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E64CE2E255BEAAD000B44DE /* SceneDelegate.swift */; };
-		5E64CE31255BEAAD000B44DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E64CE30255BEAAD000B44DE /* ViewController.swift */; };
 		5E64CE34255BEAAD000B44DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E64CE32255BEAAD000B44DE /* Main.storyboard */; };
 		5E64CE36255BEAAE000B44DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E64CE35255BEAAE000B44DE /* Assets.xcassets */; };
 		5E64CE39255BEAAE000B44DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E64CE37255BEAAE000B44DE /* LaunchScreen.storyboard */; };
 		5E64CE44255BEAAE000B44DE /* MyPlaces_5Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E64CE43255BEAAE000B44DE /* MyPlaces_5Tests.swift */; };
 		5E64CE4F255BEAAE000B44DE /* MyPlaces_5UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E64CE4E255BEAAE000B44DE /* MyPlaces_5UITests.swift */; };
+		5E64CE63255BEFA8000B44DE /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E64CE62255BEFA8000B44DE /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,6 @@
 		5E64CE29255BEAAD000B44DE /* MyPlaces#5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MyPlaces#5.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E64CE2C255BEAAD000B44DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5E64CE2E255BEAAD000B44DE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5E64CE30255BEAAD000B44DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5E64CE33255BEAAD000B44DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5E64CE35255BEAAE000B44DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E64CE38255BEAAE000B44DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +48,7 @@
 		5E64CE4A255BEAAE000B44DE /* MyPlaces#5UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MyPlaces#5UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E64CE4E255BEAAE000B44DE /* MyPlaces_5UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPlaces_5UITests.swift; sourceTree = "<group>"; };
 		5E64CE50255BEAAE000B44DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E64CE62255BEFA8000B44DE /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +101,7 @@
 			children = (
 				5E64CE2C255BEAAD000B44DE /* AppDelegate.swift */,
 				5E64CE2E255BEAAD000B44DE /* SceneDelegate.swift */,
-				5E64CE30255BEAAD000B44DE /* ViewController.swift */,
+				5E64CE62255BEFA8000B44DE /* MainViewController.swift */,
 				5E64CE32255BEAAD000B44DE /* Main.storyboard */,
 				5E64CE35255BEAAE000B44DE /* Assets.xcassets */,
 				5E64CE37255BEAAE000B44DE /* LaunchScreen.storyboard */,
@@ -258,7 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E64CE31255BEAAD000B44DE /* ViewController.swift in Sources */,
+				5E64CE63255BEFA8000B44DE /* MainViewController.swift in Sources */,
 				5E64CE2D255BEAAD000B44DE /* AppDelegate.swift in Sources */,
 				5E64CE2F255BEAAD000B44DE /* SceneDelegate.swift in Sources */,
 			);
