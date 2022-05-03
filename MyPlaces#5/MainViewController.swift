@@ -10,7 +10,7 @@ import UIKit
 class MainViewController: UITableViewController {
     
     let restuarnatNames = [
-        "Burger Heroes", "Kitchen", "Bonsai", "Дастархан", "Индокитай",
+        "Жопа2 Heroes", "Kitchen", "Bonsai", "Дастархан", "Индокитай",
         "X.O", "Балкан Гриль", "Вкусные истории", "Sherlock Holmes",
         "Speak Easy", "Morris Pub", "Love&Life", "Классик", "Шок", "Бочка"
     ]
